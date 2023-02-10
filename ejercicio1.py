@@ -5,12 +5,12 @@ B. Exponenciación
 C. División que retorne entero. """
 
 num1=456
-num2=33
+num2=3
 
 print(f"A.División Modular", num1%num2)
 
-num3= 3456
-num4= 264
+num3= 2
+num4= 52
 
 print(f"B. Exponenciación", num3**num4)
 

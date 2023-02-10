@@ -10,3 +10,8 @@ print (f"Numero complejo", (45+3.5j))
 print(f"bool", bool(3>6))
 
 print(f"Cadena", str(324*456+4565))
+
+edad=(24)
+estatura=(1.73)
+prooooocesooooooo.
+

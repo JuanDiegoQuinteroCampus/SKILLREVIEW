@@ -6,4 +6,5 @@ B. De derecha a izquierda """
 
 
 
-print(f"A. Si hay operadores de igual precedencia se ejecutan de izquierda a derecha ", 456+34,(34/2), 898%23)
+print(f"A. Si hay operadores de igual precedencia se ejecutan \nde izquierda a derecha ") 
+print(456+34,(34/2), 898%23)
