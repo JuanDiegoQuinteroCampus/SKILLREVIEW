@@ -1,5 +1,12 @@
 """ 5. Enumere 5 tipos de datos en Python y suministre un valor de
 ejemplo de cada uno. """
+edad=(24)
+estatura=(1.73)
+Ncomplejo=(45+3.5j)
+
+
+edad = 17
+
 
 print (f"Numero entero", int(2+2))
 
@@ -11,7 +18,5 @@ print(f"bool", bool(3>6))
 
 print(f"Cadena", str(324*456+4565))
 
-edad=(24)
-estatura=(1.73)
-prooooocesooooooo.
+print(type (edad))
 
