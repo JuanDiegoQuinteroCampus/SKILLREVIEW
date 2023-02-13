@@ -12,7 +12,7 @@ print(f"potencia", 2**3)
 
 print(f"Multiplicación y División, módulo o residuo, División entera", 45*23, 68/3, 34%3, 890//3)
 
-print(f"Suma y resta", 3854843+34, 45645-23)
+print(f"Suma y resta", 383+34, 4545-23)
 
 print(f"Operadores relacionales", 465<222, 456>345)
 
