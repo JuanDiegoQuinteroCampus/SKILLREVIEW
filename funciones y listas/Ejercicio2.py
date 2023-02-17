@@ -26,4 +26,4 @@ print("La atleta campeona es:", atletas[0][0])
 if atletas[0][1] > 15.50:
     print("¡Ha roto el récord y recibirá un pago de 500 millones!")
 else:
-    print("No ha roto el récord.")
+    print("F no ha roto el record .")

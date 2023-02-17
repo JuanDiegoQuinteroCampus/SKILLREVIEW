@@ -22,7 +22,7 @@ for i in range(na):
         articulos.append(tipoarticulo)
         articulos.append(cantidadvendida)
         totalvendido=totalvendido+cantidadvendida
-    print("TOTAL ALMACEN: "+nombreAlmacen,totalvendido)
+    print("TOTAL ALMACEN: El almacen ",nombreAlmacen,"vendio una cantidad total de ",totalvendido,"unidades del articulo",tipoarticulo,".")
     almacen.append([nombreAlmacen,articulos,totalvendido])
 print(len(almacen))
 for k in range(len(almacen)):

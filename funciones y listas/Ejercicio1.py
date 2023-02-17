@@ -24,7 +24,7 @@ def eliminarA(grupoA):
 
 def ordenarA(grupoA):
     grupoA.sort()
-    
+    print(f"lista ordenad, {grupoA}")
 
 def buscarA(grupoA):
     buscar=input("Ingrese el nombre del camper que desea buscar: ")
@@ -59,6 +59,7 @@ def eliminarB(grupoB):
 
 def ordenarB(grupoB):
     grupoB.sort()
+    print(f"lista ordenad, {grupoB}")
     
 
 def buscarB(grupoB):
