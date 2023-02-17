@@ -10,8 +10,8 @@ def crearA():
     return grupoA
 
 def imprimirA(grupoA):
-    for x in range(len(grupoA)):
-        print(grupoA[x])
+    for i in range(len(grupoA)):
+        print(grupoA[i])
     
 def agregarA(grupoA):
     agregar=input("Ingrese el nombre del camper que desea agregar:")
@@ -37,12 +37,44 @@ def buscarA(grupoA):
         print("El camper no se encuentra en el grupo ARTEMIS")    
     
 
-print("Dijite ARTEMIS para crear el grupo \nDigite SPUTNIK para crear el grupo")
+def crearB():
+    grupoB=[]
+    campersB = int(input("Introdusca la cantidad de campers:"))
+    for i in range(campersB):
+        grupoB.append (input("Introdusca el nombre del camper:"))
+    return grupoB
 
-option1=(input("Digite la opcion:"))
+def imprimirB(grupoB):
+    for i in range(len(grupoB)):
+        print(grupoB[i])
+    
+def agregarB(grupoB):
+    agregar=input("Ingrese el nombre del camper que desea agregar:")
+    grupoB.append(agregar)
 
+def eliminarB(grupoB):
+    eliminar=input("Ingrese el nombre del camper a eliminar: ")
+    grupoB.remove (eliminar)
+    
+
+def ordenarB(grupoB):
+    grupoB.sort()
+    
+
+def buscarB(grupoB):
+    buscar=input("Ingrese el nombre del camper que desea buscar: ")
+    if buscar in grupoB:
+        print("")
+        print("El camper si se encuentra en el grupo SPUTNICK") 
+
+    else:
+        print("")
+        print("El camper no se encuentra en el grupo ARTEMIS")   
+
+
+option1=-1
 while option1 != 0:
-    if option1 =="ARTEMIS":
+
         print("")
         print("---------------------MENU--------------------")
         print("1. CREAR GRUPO ARTEMIS:")
@@ -58,7 +90,6 @@ while option1 != 0:
         print("2.4 ORDENAR ALFABETICAMENTE EN LISTA DE SPUTNIK")
         print("2.5 BUSCAR CAMPER EN LA LISTA DEL GRUPO DE SPUTNIK")
        
-
         option= float(input("Digite la opcion deseada:"))
         if option == 1:
             grupoA=crearA()
@@ -71,23 +102,19 @@ while option1 != 0:
         elif option==1.4:
             ordenarA(grupoA)
         elif option == 1.5:
-            buscarA=(grupoA)
-            
-
-        option= float(input("Digite la opcion deseada:"))
-        
-        if option == 2:
-            grupoA= crearA()
-        elif option == 2.1:
-            imprimirA(grupoA)
-        elif option == 2.2:
-            agregarA(grupoA)
-        elif option == 2.3:
-            eliminarA(grupoA)
-        elif option == 2.4:
-            ordenarA(grupoA)
-        elif option == 2.5:
             buscarA(grupoA)
+        elif option == 2:
+            grupoB= crearB()
+        elif option == 2.1:
+            imprimirB(grupoB)
+        elif option == 2.2:
+            agregarB(grupoB)
+        elif option == 2.3:
+            eliminarB(grupoB)
+        elif option == 2.4:
+            ordenarB(grupoB)
+        elif option == 2.5:
+            buscarB(grupoB)
             
             
         
